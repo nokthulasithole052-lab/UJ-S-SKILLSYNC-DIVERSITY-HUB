@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+header {
+    background-color: #F26A21;
+    color: white;
+    padding: 0.5em 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.site-title {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a.active {
+    text-decoration: underline;
+}
+.logo {
+    width: 70px;
+    height: auto;
+    border-radius: 8px;
+}
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #1F3B73;
+    color: white;
+}
+.btn {
+    background-color: #F26A21;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.poster-section {
+    text-align: center;
+    padding: 30px;
+}
+.poster {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.content, .sdg {
+    padding: 40px 20px;
+}
+footer {
+    background-color: #1F3B73;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+    .poster {
+        width: 95%;
+    }
+}
